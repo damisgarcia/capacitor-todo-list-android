@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">capacitor-todo-list-android</string>
+    <string name="title_activity_main">capacitor-todo-list-android</string>
+    <string name="package_name">br.com.todolist</string>
+    <string name="custom_url_scheme">br.com.todolist</string>
+</resources>
