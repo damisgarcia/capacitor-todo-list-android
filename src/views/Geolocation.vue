@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Geolocation</h1>
+  <div class="cap-geolocation-page">
+    <h1 class="title">Geolocation</h1>
     <p>Your location is:</p>
     <p>Latitude: {{ loc.lat }}</p>
     <p>Longitude: {{ loc.long }}</p>
@@ -26,5 +26,13 @@ async function getCurrentPosition() {
     lat: pos.coords.latitude,
     long: pos.coords.longitude,
   };
-};
+}
 </script>
+
+<style lang="scss" scoped>
+.cap-geolocation-page {
+  .title {
+    color: green !important;
+  }
+}
+</style>
